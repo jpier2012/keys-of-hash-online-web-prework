@@ -17,4 +17,5 @@ class Hash
   end
 end
 
+keys_of(animals)
 puts keys_of(animals)
