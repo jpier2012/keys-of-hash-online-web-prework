@@ -15,3 +15,5 @@ class Hash
   binding.pry
   end
 end
+
+keys_of
