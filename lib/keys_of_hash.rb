@@ -8,6 +8,6 @@ class Hash
         end
       }
     }
-    new_array
+  new_array
   end
 end
