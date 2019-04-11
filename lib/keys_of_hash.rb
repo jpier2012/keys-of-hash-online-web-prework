@@ -1,9 +1,12 @@
 class Hash
   def keys_of(*args)
   new_array = []
-    args.each {|arg, value|
-      if animals.values.include?(value)
-
+    args.each {|arg|
+      animals.each {|animal, location|
+        if location == arg
+          new_array << animal
+        end
+      }
     }
   end
 end
