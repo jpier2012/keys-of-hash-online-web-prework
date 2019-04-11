@@ -20,4 +20,3 @@ class Hash
   binding.pry
   end
 end
-
