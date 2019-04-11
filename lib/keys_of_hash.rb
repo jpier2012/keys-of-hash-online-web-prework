@@ -1,6 +1,6 @@
 class Hash
-  def keys_of(arguments)
-    arguments.each {|arg, value|
-      arg.each }
+  def keys_of(*args)
+    args.each {|arg, value|
+      if animals.values.include?(value) }
   end
 end
