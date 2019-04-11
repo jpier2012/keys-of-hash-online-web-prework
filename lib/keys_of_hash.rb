@@ -17,5 +17,5 @@ class Hash
   end
 end
 
-keys_of(animals)
+animals.keys_of("Panama")
 puts keys_of(animals)
