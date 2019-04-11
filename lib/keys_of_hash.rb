@@ -1,8 +1,8 @@
 class Hash
-  def keys_of(*args)
+  def keys_of(hash, *args)
   new_array = []
     args.each {|arg|
-      animals.each {|animal, location|
+      hash.each {|animal, location|
         if location == arg
           new_array << animal
         end
