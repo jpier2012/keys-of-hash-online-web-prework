@@ -3,7 +3,7 @@ animals = {"sugar glider"=>"Australia","aye-aye"=> "Madagascar","red-footed tort
 class Hash
   def keys_of(*args)
   new_array = []
-  
+
     args.each {|arg|
       animals.each {|animal, location|
         if location == arg
@@ -11,9 +11,8 @@ class Hash
         end
       }
     }
-    
+
   new_array
   binding.pry
-  end  
+  end
 end
-
